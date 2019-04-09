@@ -1,0 +1,26 @@
+server:
+  port: 80
+#server.port=8082
+spring:
+  datasource:
+    url: jdbc:mysql://139.199.19.74:3306/goldtest?characterEncoding=utf8&useSSL=true
+    username: root
+    password: fenxiaodb
+    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/BOOT-INF/classes/static/images/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+msg:
+  ifopen: false
+  label: 【金夫人】
+  jg:
+    appkey: e11742f0cc47bc6e5fd37089
+    secret: ad48d988dfb9605417a5fb40
+    smgcodeid: 1
+weixin:
+  item: goldlady
+  brand: 金夫人
+  back: static/images/back2.png
+host:
+  url: http://gold.iborge.cn:8080
