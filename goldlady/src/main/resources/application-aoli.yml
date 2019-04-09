@@ -2,9 +2,9 @@ server:
   port: 8001
 spring:
   datasource:
-    url: jdbc:mysql://111.231.83.249:3306/aoli?characterEncoding=utf8&useSSL=true
-    username: root
-    password: minishop1234
+    url: jdbc:mysql://xxx:3306/xxx?characterEncoding=utf8&useSSL=true
+    username: xxx
+    password: xxx
     driver-class-name: com.mysql.jdbc.Driver
   mvc:
     static-path-pattern: /**
@@ -14,8 +14,8 @@ msg:
   ifopen: true
   label: 【奥丽养生】
   jg:
-      appkey: e11742f0cc47bc6e5fd37089
-      secret: ad48d988dfb9605417a5fb40
+      appkey: xxx
+      secret: xxx
       smgcodeid: 1
 weixin:
   item: aoli
